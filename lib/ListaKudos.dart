@@ -14,12 +14,11 @@ class ListaKudos extends StatelessWidget{
       children: <Widget>[
 
         ItemKudo('Hamburguer Duplo Bacon', 'Pedido: 000001',Icons.fastfood),
-        ItemKudo('Almoço Comercial','Pedido: 000002', Icons.restaurant), 
+        //ItemKudo('Almoço Comercial','Pedido: 000002', Icons.restaurant), 
         ItemKudo('Café Expresso','Pedido: 000003', Icons.local_cafe),
-        ItemKudo('Refrigerante Fanta 2L','Pedido: 000004', Icons.local_drink),
-        ItemKudo('Pizza M Calabresa','Pedido: 000005', Icons.local_pizza),
+        //ItemKudo('Refrigerante Fanta 2L','Pedido: 000004', Icons.local_drink),
+        //ItemKudo('Pizza M Calabresa','Pedido: 000005', Icons.local_pizza),
 
-        
       ],
     );
   }

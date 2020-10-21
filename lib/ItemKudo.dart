@@ -7,7 +7,7 @@ final String titulo;
 final String mensagem;
 final IconData icon;
 
-ItemKudo(this.titulo,this.mensagem,this.icon, {Map onPressed});
+ItemKudo(this.titulo,this.mensagem,this.icon);
 
 @override
 
@@ -18,10 +18,16 @@ ItemKudo(this.titulo,this.mensagem,this.icon, {Map onPressed});
         leading: Icon(this.icon),
         title: Text(this.titulo),
         subtitle: Text(this.mensagem),
-        /*
+        
+        // testando onTap
         onTap: (){
-          Navigator.pushNamed(context, 'Kudoteste');
-        } ,*/
+          if(titulo == "Café Expresso"){
+            Navigator.pushNamed(context, 'Kudoteste');
+          // testando com propriedades diferentes
+          }else if(mensagem == "Pedido: 000001"){
+            Navigator.pushNamed(context, 'Kudoteste');
+          }
+        } ,
       )
     );
   }
