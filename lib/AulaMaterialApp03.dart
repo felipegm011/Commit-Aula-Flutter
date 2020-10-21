@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'Kudoteste.dart';
+import 'Kudoteste1.dart';
 import 'ListaKudos.dart';
 
 class AulaMaterialApp03 extends StatelessWidget {
@@ -20,6 +21,7 @@ class AulaMaterialApp03 extends StatelessWidget {
             // rota 'kudos' definidos no arqui Kudos
             'Listakudos': (context) => ListaKudos(),
             'Kudoteste': (context) => Kudoteste(),
+            'Kudoteste1': (context) => Kudoteste1(),
           }
         )
       ),

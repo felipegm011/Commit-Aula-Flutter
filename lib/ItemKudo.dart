@@ -13,6 +13,7 @@ ItemKudo(this.titulo,this.mensagem,this.icon);
 
 
   Widget build(BuildContext context){
+
         return Card(
         child: ListTile(
         leading: Icon(this.icon),
@@ -22,7 +23,7 @@ ItemKudo(this.titulo,this.mensagem,this.icon);
         // testando onTap
         onTap: (){
           if(titulo == "Café Expresso"){
-            Navigator.pushNamed(context, 'Kudoteste');
+            Navigator.pushNamed(context, 'Kudoteste1');
           // testando com propriedades diferentes
           }else if(mensagem == "Pedido: 000001"){
             Navigator.pushNamed(context, 'Kudoteste');
